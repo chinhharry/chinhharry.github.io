@@ -1,0 +1,53 @@
+/* myStyle.css */
+body {
+ background-color: white;
+}
+h1 {
+ color: darkblue;
+ text-align: center;
+ font: bold; 
+ font-size: 400%;
+ font-family: 'Calistoga', cursive;
+ margin: 0;
+}
+
+h2 {color: #155B91;}
+
+p {
+ color: #004385 ;
+ font-size: 18px;
+ font-family: 'Solway', serif;
+ text-align: center;
+}
+
+h3{
+	color: darkblue;
+	text-align: center;
+	font: bold;
+	font-size: 50px;
+	font-family: 'Calistoga', cursive;
+	margin: 2px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+.column{
+	background-color: orange;
+}
+
+img {
+	max-width: 100%;
+}
+
+header{
+	background-image: url("../img/Clifton.jpg");
+	height: 770px;
+	background-size: cover;
+	/*background-repeat: no-repeat;
+	background-position: top;
+*/}
